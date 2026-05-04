@@ -1,0 +1,16 @@
+# Environment Variables (CRITICAL)
+.env
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Python Cache (Keeps your repo clean)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Misc
+.DS_Store
+*.sqlite3
