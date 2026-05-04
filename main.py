@@ -13,7 +13,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000",
-                   "https://potato-frontend-xi.vercel.app/",
+                   "https://potato-frontend-xi.vercel.app",
                    "http://127.0.0.1:3000"],
     # frontend URL
     allow_credentials=True,
